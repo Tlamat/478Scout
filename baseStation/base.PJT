@@ -1,0 +1,36 @@
+[PROJECT]
+Target=base.HEX
+Development_Mode=2
+Processor=0x4620
+ToolSuite=CCS
+
+[Directories]
+Include=
+Library=
+LinkerScript=
+
+[Target Data]
+FileList=base.c;
+BuildTool=C-COMPILER
+OptionString=+FH
+AdditionalOptionString=
+BuildRequired=1
+
+[base.c]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+
+[mru-list]
+1=C:\DOCUME~1\elund\Desktop\BASEST~1\base.c
+
+[Windows]
+0=0000 C:\DOCUME~1\elund\Desktop\BASEST~1\base.c 0 0 796 451 3 0
+
+[Opened Files]
+1=C:\Documents and Settings\elund\Desktop\baseStation\base.c
+2=C:\Documents and Settings\elund\Desktop\baseStation\glcd.c
+3=

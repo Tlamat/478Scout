@@ -1,0 +1,105 @@
+000     @SCRATCH
+001     @SCRATCH
+001     _RETURN_
+002     @SCRATCH
+003     @SCRATCH
+004     @SCRATCH
+005     @INTERRUPT_AREA
+006     @INTERRUPT_AREA
+007     @INTERRUPT_AREA
+008     @INTERRUPT_AREA
+009     @INTERRUPT_AREA
+00A     @INTERRUPT_AREA
+00B     @INTERRUPT_AREA
+00C     @INTERRUPT_AREA
+00D     @INTERRUPT_AREA
+00E     @INTERRUPT_AREA
+00F     @INTERRUPT_AREA
+010     @INTERRUPT_AREA
+011     @INTERRUPT_AREA
+012     @INTERRUPT_AREA
+013     @INTERRUPT_AREA
+014     @INTERRUPT_AREA
+015     @INTERRUPT_AREA
+016     @INTERRUPT_AREA
+017-018 strtok.save
+019-01C _Randseed
+01D.0   button1
+01D.1   button2
+01D.2   Xhit
+01D.3   Yhit
+01D.4   XGO
+01D.5   YGO
+01E-025 string
+026     x
+027     y
+028     xo
+029     yo
+02A     a
+02B     b
+02C     i
+02D     j
+02E     temp
+02F     glcd_pixel.x
+02F     glcd_init.mode
+02F     main.@SCRATCH
+030     glcd_fillScreen.color
+030     glcd_pixel.y
+031     glcd_fillScreen.i
+031     glcd_pixel.color
+032     glcd_fillScreen.j
+032     glcd_pixel.data
+033     glcd_pixel.chip
+033     glcd_fillScreen.@SCRATCH
+034     glcd_readByte.chip
+034     glcd_pixel.@SCRATCH
+035     glcd_readByte.data
+035     glcd_pixel.@SCRATCH
+036     glcd_pixel.@SCRATCH
+037     glcd_writeByte.chip
+038     glcd_writeByte.data
+F83     PSP_DATA
+FB4.6   C1OUT
+FB4.7   C2OUT
+FBB-FBC CCP_2
+FBB     CCP_2_LOW
+FBC     CCP_2_HIGH
+FBE     CCP_1_LOW
+FBE-FBF CCP_1
+FBF     CCP_1_HIGH
+
+0166  glcd_init
+0244  glcd_pixel
+00EA  glcd_fillScreen
+00B6  glcd_writeByte
+01EC  glcd_readByte
+02F2  main
+00A2  EXT_ISR
+00AC  EXT1_ISR
+02F2  @cinit
+
+Project Files:
+    C:\Documents and Settings\elund\Desktop\baseStation\base.c
+    C:\Program Files\PICC\devices\18F4620.h
+    C:\Program Files\PICC\drivers\stdlib.h
+    C:\Program Files\PICC\drivers\stddef.h
+    C:\Program Files\PICC\drivers\string.h
+    C:\Program Files\PICC\drivers\ctype.h
+    C:\Documents and Settings\elund\Desktop\baseStation\glcd.c
+    C:\Documents and Settings\elund\Desktop\baseStation\glcd.h
+
+Compiler Settings:
+    Processor:      PIC18F4620
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      C:\Documents and Settings\elund\Desktop\baseStation\base.err
+    INHX32:      C:\Documents and Settings\elund\Desktop\baseStation\base.HEX
+    Symbols:     C:\Documents and Settings\elund\Desktop\baseStation\base.SYM
+    List:        C:\Documents and Settings\elund\Desktop\baseStation\base.LST
+    Debug/COFF:  C:\Documents and Settings\elund\Desktop\baseStation\base.cof
+    Call Tree:   C:\Documents and Settings\elund\Desktop\baseStation\base.tre
+    Statistics:  C:\Documents and Settings\elund\Desktop\baseStation\base.sta

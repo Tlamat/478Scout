@@ -1,0 +1,41 @@
+
+ROM used: 1020 (2%)
+          1020 (2%) including unused fragments
+
+          0 Average locations per line
+          2 Average locations per statement
+
+RAM used: 48 (1%) at main() level
+          57 (1%) worst case
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  248    61  10  C:\Documents and Settings\elund\Desktop\baseStation\base.c
+  423     0   0  C:\Program Files\PICC\devices\18F4620.h
+  758   324  48  C:\Program Files\PICC\drivers\stdlib.h
+   28     0   0  C:\Program Files\PICC\drivers\stddef.h
+  417     0   0  C:\Program Files\PICC\drivers\string.h
+   28     0   0  C:\Program Files\PICC\drivers\ctype.h
+  448   224  23  C:\Documents and Settings\elund\Desktop\baseStation\glcd.c
+  138     0   0  C:\Documents and Settings\elund\Desktop\baseStation\glcd.h
+----- -----
+ 4976  1218 Total
+
+Page ROM  %  RAM  Functions:
+---- --- --- ---  ----------
+0    134   7   1  glcd_init
+0    174   9   8  glcd_pixel
+0    124   6   4  glcd_fillScreen
+0     52   3   2  glcd_writeByte
+0     88   4   2  glcd_readByte
+0    270  13   1  main
+0     10   0   0  EXT_ISR
+0     10   0   0  EXT1_ISR
+
+ Segment   Used  Free
+---------  ----  ----
+00000-00002     4  0  
+00004-00006     0  4  Private0
+00008-000A0   154  0  
+000A2-0FFFE   862  64512  Private0
+

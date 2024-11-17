@@ -1,0 +1,29 @@
+ÀÄbase
+   ÃÄmain  0/270  Ram=1
+   ³  ÃÄ??0??
+   ³  ÃÄglcd_init  0/134  Ram=1
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³  ÀÄglcd_fillScreen  0/124  Ram=4
+   ³  ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³  ³     ÀÄglcd_writeByte  0/52  Ram=2
+   ³  ÀÄglcd_pixel  0/174  Ram=8
+   ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³     ÃÄglcd_readByte  0/88  Ram=2
+   ³     ÃÄglcd_writeByte  0/52  Ram=2
+   ³     ÀÄglcd_writeByte  0/52  Ram=2
+   ÃÄEXT_ISR  0/10  Ram=0
+   ÀÄEXT1_ISR  0/10  Ram=0
